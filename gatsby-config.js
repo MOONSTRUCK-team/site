@@ -1,7 +1,6 @@
 module.exports = {
-  siteMetadata: {
-    title: `Moonstruck`,
-    siteUrl: `https://www.yourdomain.tld`,
-  },
-  plugins: [],
-}
+	siteMetadata: {
+		title: `Moonstruck`,
+		siteUrl: `https://www.yourdomain.tld`,
+	},
+};
