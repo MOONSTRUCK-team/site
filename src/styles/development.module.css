@@ -134,4 +134,32 @@
     font-size: 15px;
     width: 400px;
   }
+  .moons_text__wrapper > p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .moons_text__wrapper > p:nth-child(2),
+  .moons_text__wrapper > p:nth-child(3) {
+    position: relative;
+    top: 100px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .development_text_wrapper > p {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .moons_text__wrapper > p:nth-child(2),
+  .moons_text__wrapper > p:nth-child(3) {
+    position: relative;
+    top: 85px;
+    text-align: center;
+  }
+  .moons_text__wrapper > p {
+    font-size: 12px;
+  }
 }

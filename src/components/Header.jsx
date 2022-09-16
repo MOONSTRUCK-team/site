@@ -14,6 +14,7 @@ export default function Header() {
       <div className={styles.header_yellow_layer}>
         <div>
           <StaticImage
+            class={styles.yellow_pic}
             alt='yellow layer'
             src='../images/yellow_layer.png'
           />

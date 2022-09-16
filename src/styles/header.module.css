@@ -99,6 +99,7 @@
   .header_simply > h2 {
     font-size: 40px;
     line-height: 0;
+    margin-bottom: 10px;
   }
   .header_simply > p {
     font-size: 13px;
@@ -118,11 +119,29 @@
     top: 250px;
   }
   .header_simply {
-    top: -80px;
+    top: -78px;
   }
   .header_simply > h2 {
     font-size: 35px;
     margin-bottom: 4px;
     padding-bottom: 5px;
+  }
+  .header_simply > p {
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header_yellow_layer {
+    top: 270px;
+  }
+
+  .header_simply {
+    top: -65px;
+  }
+
+  .header_simply > p {
+    line-height: 12px;
+    font-size: 12px;
   }
 }

@@ -129,3 +129,31 @@
     width: 350px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .what_we_do_card_container {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .what_we_do_card_container {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .what_we_do_text {
+    top: 50px;
+  }
+  .what_we_do_text_box {
+    width: 250px;
+  }
+  .what_we_do_text_box > p {
+    line-height: 19px;
+  }
+  .what_we_do_card_container {
+    padding-left: 8px;
+  }
+}
