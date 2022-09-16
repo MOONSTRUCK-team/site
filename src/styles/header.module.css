@@ -1,6 +1,11 @@
 .header_container {
   height: 100vh;
-  background-image: url('../images/background1.png');
+  background-image: linear-gradient(
+      0deg,
+      rgb(26, 24, 24) 0%,
+      rgba(26, 24, 24, 0.01) 0.7%
+    ),
+    url('../images/background1.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -16,12 +21,12 @@
 
 .header_yellow_layer {
   position: relative;
-  top: 10%;
+  top: 20%;
 }
 
 .header_simply {
   position: inherit;
-  top: -230px;
+  top: -200px;
   margin-left: 10%;
   color: black;
 }
@@ -44,7 +49,7 @@
   line-height: 28.75px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .header_simply {
     top: -150px;
   }
@@ -53,43 +58,71 @@
     line-height: 13px;
   }
   .header_simply > p {
-    font-size: 16px;
+    font-size: 18px;
     width: 500px;
+    padding: 10px;
+  }
+  .header_yellow_layer {
+    top: 300px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+  .header_container {
+    width: 100%;
+  }
+  .header_yellow_layer {
+    top: 250px;
+  }
+  .header_simply {
+    top: -130px;
+  }
+  .header_simply > p {
+    font-size: 16px;
+    width: 400px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+  }
+  .header_logo2 {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .header_container {
     height: 700px;
   }
   .header_simply {
-    top: -110px;
+    top: -100px;
   }
   .header_simply > h2 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 0;
   }
   .header_simply > p {
+    font-size: 13px;
+    width: 300px;
     padding-top: 3px;
     line-height: normal;
+    padding: 0;
+    margin: 0;
   }
   .header_logo2 {
     display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
   .header_yellow_layer {
-    height: 600px;
-    top: 130px;
+    top: 250px;
   }
   .header_simply {
-    top: -75px;
+    top: -80px;
   }
   .header_simply > h2 {
-    font-size: 55px;
-  }
-  .header_simply > p {
-    display: none;
+    font-size: 35px;
+    margin-bottom: 4px;
+    padding-bottom: 5px;
   }
 }

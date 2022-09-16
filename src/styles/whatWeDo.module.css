@@ -1,7 +1,12 @@
 .what_we_do_container {
-  background-image: url('../images/background2.png');
+  background-image: linear-gradient(
+      180deg,
+      rgb(26, 24, 24) 0%,
+      rgba(26, 24, 24, 0.01) 0.7%
+    ),
+    url('../images/background2.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% auto;
   width: 100%;
 }
 
@@ -71,17 +76,17 @@
   font-weight: 100;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .what_we_do_text > h2 {
     font-size: 70px;
     line-height: 16px;
   }
   .what_we_do_text_box {
-    width: 500px;
+    width: 700px;
   }
   .what_we_do_text_box > p {
     font-size: 15px;
-    width: 500px;
+    padding: 7px;
   }
   .what_we_do_card > h2 {
     font-size: 40px;
@@ -93,11 +98,17 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+  .what_we_do_text_box {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .what_we_do_card_container {
     display: inline-block;
     justify-content: center;
-    padding-left: 20%;
+    padding-left: 10%;
   }
   .what_we_do_card:nth-child(1),
   .what_we_do_card:nth-child(2),
@@ -106,9 +117,6 @@
     float: left;
     width: 200px;
   }
-}
-
-@media screen and (max-width: 600px) {
   .what_we_do_text > h2 {
     font-size: 50px;
     line-height: 10px;
@@ -116,9 +124,8 @@
   }
   .what_we_do_text_box > p {
     font-size: 15px;
-    width: 300px;
   }
   .what_we_do_text_box {
-    width: 300px;
+    width: 350px;
   }
 }

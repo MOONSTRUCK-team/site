@@ -110,7 +110,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .development_text_wrapper > h2 {
     font-size: 50px;
   }
@@ -123,5 +123,15 @@
   }
   .technical_skills > p {
     font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .development_text_wrapper > h2 {
+    font-size: 40px;
+  }
+  .development_text_wrapper > p {
+    font-size: 15px;
+    width: 400px;
   }
 }

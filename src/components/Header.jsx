@@ -1,6 +1,5 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
-import Navbar from './Navbar';
 import * as styles from '../styles/header.module.css';
 
 export default function Header() {

@@ -23,6 +23,9 @@ footer {
   font-family: 'saira regular';
 }
 
+.contact_info > p {
+  margin: 0;
+}
 .contact_container__social {
   align-self: end;
   padding-bottom: 2%;
@@ -32,7 +35,7 @@ footer {
   padding: 15px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1200px) {
   .header_simply {
     position: inherit;
     top: -160px;
@@ -48,6 +51,7 @@ footer {
   .contact_logo {
     text-align: center;
     padding-bottom: 2%;
+    padding-left: 0;
   }
   .contact_info_wrapper {
     justify-content: space-around;
