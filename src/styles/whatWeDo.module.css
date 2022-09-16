@@ -157,3 +157,10 @@
     padding-left: 8px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .what_we_do_card_container {
+    padding-left: 0;
+    padding: 0;
+  }
+}

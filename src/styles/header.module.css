@@ -94,10 +94,10 @@
     height: 700px;
   }
   .header_simply {
-    top: -100px;
+    top: -95px;
   }
   .header_simply > h2 {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 0;
     margin-bottom: 10px;
   }
@@ -137,11 +137,26 @@
   }
 
   .header_simply {
-    top: -65px;
+    top: -60px;
+  }
+
+  .header_simply > h2 {
+    font-size: 30px;
   }
 
   .header_simply > p {
     line-height: 12px;
-    font-size: 12px;
+    font-size: 10px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header_simply {
+    top: -70px;
+  }
+  .header_simply > p {
+    line-height: 10px;
+    font-size: 10px;
   }
 }

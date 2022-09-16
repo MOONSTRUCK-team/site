@@ -11,7 +11,7 @@
   color: yellow;
   font-size: 51.11px;
   font-family: 'saira regular';
-  width: 70%;
+  width: 75%;
 }
 
 .development_text__logo {
@@ -23,7 +23,7 @@
   padding-top: 80px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   line-height: 32px;
 }
 
@@ -35,6 +35,7 @@
   color: #ffffff;
   font-weight: 400;
   font-family: 'saira regular';
+  padding: 16px;
 }
 
 .moons_text__wrapper > p:nth-child(4),
@@ -92,6 +93,12 @@
   font-weight: 400;
   font-family: 'saira regular';
   text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .development_text_wrapper > h2 {
+    line-height: 80px;
+  }
 }
 @media screen and (max-width: 1300px) {
   .development_text_wrapper > h2 {
