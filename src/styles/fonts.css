@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'saira regular';
+  src: url('../fonts/saira/Saira-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'genos regular';
+  src: url('../fonts/genos/Genos-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'teko regular';
+  src: url('../fonts/teko/Teko-Regular.ttf') format('truetype');
+}

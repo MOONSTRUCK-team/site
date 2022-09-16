@@ -1,0 +1,26 @@
+.projects_background {
+  background-color: white;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.project_wrapper {
+  padding-left: 10%;
+}
+
+.projects_text {
+  font-family: 'teko regular';
+  font-size: 51.11px;
+  line-height: 64px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project_card {
+  margin: 0 1em 1em 0;
+}

@@ -1,0 +1,127 @@
+.development_background {
+  background-image: url('../images/background3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 9%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.development_text_wrapper > h2 {
+  color: yellow;
+  font-size: 51.11px;
+  font-family: 'saira regular';
+  width: 70%;
+}
+
+.development_text__logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.moons_text__wrapper {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 32px;
+}
+
+.moons_text__wrapper > p {
+  width: 20%;
+  margin-bottom: 0;
+  height: 165px;
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'saira regular';
+}
+
+.moons_text__wrapper > p:nth-child(4),
+.moons_text__wrapper > p:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.moons_text__wrapper > p:nth-child(2),
+.moons_text__wrapper > p:nth-child(3) {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+.development_four_moons {
+  display: 'flex';
+  justify-content: 'center';
+}
+
+.development_text_wrapper > h2 {
+  font-size: 115px;
+  line-height: 64px;
+  color: #fff200;
+  font-weight: 600;
+  font-family: 'teko regular';
+  width: 85%;
+}
+
+.development_text_wrapper > p {
+  width: 70%;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'saira regular';
+}
+
+.logo_wrapper {
+  width: 25%;
+}
+
+.technical_skills {
+  display: 'flex';
+  flex-direction: column;
+  width: 94%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.technical_skills > p {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'saira regular';
+  text-align: center;
+}
+@media screen and (max-width: 1300px) {
+  .development_text_wrapper > h2 {
+    font-size: 70px;
+    line-height: 50px;
+  }
+  .development_text_wrapper > p {
+    font-size: 20px;
+    width: 500px;
+  }
+  .logo_wrapper {
+    display: none;
+  }
+  .technical_skills > p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .development_text_wrapper > h2 {
+    font-size: 50px;
+  }
+  .development_text_wrapper > p {
+    font-size: 16px;
+  }
+  .moons_text__wrapper > p {
+    font-size: 17px;
+    line-height: normal;
+  }
+  .technical_skills > p {
+    font-size: 17px;
+  }
+}
