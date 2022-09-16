@@ -24,3 +24,10 @@
 .project_card {
   margin: 0 1em 1em 0;
 }
+
+@media screen and (max-width: 1400px) {
+  .projects {
+    display: flex;
+    justify-content: center;
+  }
+}
