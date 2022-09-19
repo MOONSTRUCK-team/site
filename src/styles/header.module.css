@@ -6,7 +6,7 @@
       rgba(26, 24, 24, 0.01) 0.7%
     ),
     url('../images/background1.png');
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-y: bottom;
   padding-top: 8%;
@@ -132,6 +132,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .header_container {
+    background-position: center;
+  }
   .header_yellow_layer {
     top: 270px;
   }

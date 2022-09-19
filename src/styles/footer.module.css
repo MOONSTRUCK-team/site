@@ -58,7 +58,10 @@ footer {
     padding-left: 5%;
   }
   .contact_container__social {
-    display: none;
+    /* display: none; */
+  }
+  .contact_logo {
+    padding: 7%;
   }
 }
 

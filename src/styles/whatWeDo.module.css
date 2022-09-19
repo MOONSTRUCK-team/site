@@ -109,6 +109,8 @@
     display: inline-block;
     justify-content: center;
     padding-left: 10%;
+    text-align: center;
+    padding-left: 15%;
   }
   .what_we_do_card:nth-child(1),
   .what_we_do_card:nth-child(2),
@@ -133,7 +135,6 @@
 @media screen and (max-width: 550px) {
   .what_we_do_card_container {
     justify-content: center;
-    text-align: center;
   }
 }
 
