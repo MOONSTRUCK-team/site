@@ -28,18 +28,22 @@ const Footer = () => {
             <p>Design by Moonstruck</p>
           </div>
           <div className={styles.contact_container__social}>
-            <a href='https://www.linkedin.com/company/moonstruck/'>
-              <StaticImage
-                alt='linkedin'
-                src='../images/social/linkedin.svg'
-              />
-            </a>
-            <a href='https://github.com/MOONSTRUCK-team'>
-              <StaticImage
-                alt='github'
-                src='../images/social/github.svg'
-              />
-            </a>
+            <div>
+              <a href='https://www.linkedin.com/company/moonstruck/'>
+                <StaticImage
+                  alt='linkedin'
+                  src='../images/social/linkedin.svg'
+                />
+              </a>
+            </div>
+            <div>
+              <a href='https://github.com/MOONSTRUCK-team'>
+                <StaticImage
+                  alt='github'
+                  src='../images/social/github.svg'
+                />
+              </a>
+            </div>
             {/* <a href='https://twitter.com'>
               <StaticImage
                 alt='twitter'

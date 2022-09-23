@@ -13,8 +13,8 @@
 .what_we_do_text {
   position: relative;
   top: 80px;
-  left: 10%;
-  width: 90%;
+  margin-left: 10%;
+  width: 85%;
   height: 470px;
 }
 
@@ -156,6 +156,9 @@
   }
   .what_we_do_card_container {
     padding-left: 8px;
+  }
+  .what_we_do_text {
+    width: 200px;
   }
 }
 

@@ -1,31 +1,58 @@
 import React from 'react';
+import { projects } from '../utill/projects';
+import { EUProjects } from '../utill/EUProjects';
 import * as styles from '../styles/projects.module.css';
-import { StaticImage } from 'gatsby-plugin-image';
-
 const Projects = () => {
+  console.log(projects);
   return (
     <div
       id='project'
       className={styles.projects_background}
     >
       <div className={styles.project_wrapper}>
-        <h2 className={styles.projects_text}>PROJECTS...</h2>
+        <h2 className={styles.projects_text}>
+          Relevant Web 3.0 and Blockchain projects
+        </h2>
         <div className={styles.projects}>
-          {Array(10)
-            .fill(0)
-            .map((__, index) => {
-              return (
-                <div
-                  key={index}
-                  className={styles.project_card}
-                >
-                  <StaticImage
+          {Object.entries(projects).map(([key, value]) => {
+            return (
+              <div
+                className={styles.project_card}
+                key={key}
+              >
+                <a href={value.link}>
+                  <img
+                    className={styles.project_card_img}
                     alt='project card'
-                    src='../images/test_card.jpeg'
+                    src={value.picture}
                   />
-                </div>
-              );
-            })}
+                </a>
+                <p>{value.project}</p>
+                <p>{value.description}</p>
+                <p>{value.stack}</p>
+              </div>
+            );
+          })}
+        </div>
+        <h2 className={styles.projects_text}>Relevant EU funded projects</h2>
+        <div className={styles.projects}>
+          {Object.entries(EUProjects).map(([key, value], index) => {
+            return (
+              <div className={styles.project_card}>
+                <a href={value.link}>
+                  <img
+                    id={styles['midih_logo']}
+                    className={styles.project_card_img}
+                    alt='project card'
+                    src={value.picture}
+                  />
+                </a>
+                <p>{value.project}</p>
+                <p>{value.description}</p>
+                <p>{value.stack}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
