@@ -52,7 +52,7 @@ const Web25 = () => {
             Basics of Smart Contracts - Solidity, EVM - Introduction to
             programming blockchain and Ethereum Virtual Machine (transactions,
             accounts, storage), writing smart contracts in Solidity language and
-            supporting tools (Remik IDE)
+            supporting tools (Remix IDE)
           </p>
           <p>
             Web Frontend - HTML, CSS, JS - Basics of Web Programming, HTML and

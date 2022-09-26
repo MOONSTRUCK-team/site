@@ -8,10 +8,11 @@ import '../styles/index.css';
 export default function Navbar() {
   return (
     <div className={styles.navbar_container}>
-      <div className={styles.navbar_logo}>
+      <div>
         <StaticImage
+          className={styles.navbar_logo}
           alt='moonstruck logo'
-          src='../images/logo.png'
+          src='../images/logo.svg'
         />
       </div>
       <div className={styles.navbar_links}>

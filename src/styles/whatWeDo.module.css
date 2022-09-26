@@ -54,6 +54,8 @@
   overflow: visible;
   width: 20%;
   padding: 0px 15px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .what_we_do_picture {

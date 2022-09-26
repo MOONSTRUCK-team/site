@@ -6,10 +6,11 @@ const Footer = () => {
   return (
     <footer>
       <div id='contact'>
-        <div className={styles.contact_logo}>
+        <div className={styles.footer_logo_container}>
           <StaticImage
+            className={styles.contact_logo}
             alt='Moonstruck logo'
-            src='../images/logo.png'
+            src='../images/logo.svg'
           />
         </div>
         <div className={styles.contact_info_wrapper}>
