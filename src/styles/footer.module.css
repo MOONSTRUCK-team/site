@@ -1,6 +1,13 @@
 footer {
   height: 15%;
   background-color: black;
+  /* background: white; */
+  background-image: radial-gradient(
+    rgba(72, 74, 86, 0.84),
+    0.8px,
+    transparent 0
+  );
+  background-size: 12px 12px;
   padding-bottom: 5%;
 }
 
@@ -57,9 +64,6 @@ footer {
   .contact_info_wrapper {
     justify-content: space-around;
     padding-left: 5%;
-  }
-  .contact_container__social {
-    /* display: none; */
   }
   .contact_logo {
     padding: 7%;

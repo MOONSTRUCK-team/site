@@ -20,6 +20,15 @@
 
 .projects > div {
   width: 45%;
+  margin: 8px;
+  border-radius: 4px;
+  background: white;
+  background-image: radial-gradient(
+    rgba(72, 74, 86, 0.84),
+    0.8px,
+    transparent 0
+  );
+  background-size: 12px 12px;
 }
 
 .projects > div:nth-child(1),
@@ -28,6 +37,12 @@
 .projects > div:nth-child(8) {
   background-color: #e3e3e3;
   color: #000000;
+  background-image: radial-gradient(
+    rgba(197, 193, 223, 0.84),
+    0.8px,
+    transparent 0
+  );
+  background-size: 12px 12px;
 }
 
 .projects > div:nth-child(2),
@@ -53,8 +68,7 @@
 }
 
 .project_card_img {
-  height: 60px;
-  width: 230px;
+  width: 200px;
 }
 
 .projects > div:nth-child(5) > a > img {
@@ -64,8 +78,7 @@
 }
 
 #midih_logo {
-  width: 150px;
-  height: 70px;
+  width: 120px;
 }
 
 @media screen and (max-width: 1400px) {

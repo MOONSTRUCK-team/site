@@ -1,0 +1,47 @@
+.web25_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-image: linear-gradient(
+      0deg,
+      rgb(26, 24, 24) 0%,
+      rgba(26, 24, 24, 0.01) 100%
+    ),
+    url(/static/background1-f67f47be459de099802c08cfd7749efd.jpg);
+  color: white;
+  background-size: cover;
+  padding-top: 70px;
+}
+.web25_container > h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.form_container {
+  position: relative;
+  margin: auto;
+}
+
+.mc_embed_signup {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: rgb(107 107 107 / 20%);
+}
+
+.submit_btn {
+  background: white !important;
+  margin-left: 35%;
+}
+
+.chimp_logo {
+  margin-left: 20%;
+}
+
+.input {
+  width: 100%;
+  color: black;
+}

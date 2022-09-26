@@ -9,7 +9,7 @@ const Projects = () => {
       id='project'
       className={styles.projects_background}
     >
-      <div className={styles.project_wrapper}>
+      <div>
         <h2 className={styles.projects_text}>
           Relevant Web 3.0 and Blockchain projects
         </h2>
@@ -40,12 +40,20 @@ const Projects = () => {
             return (
               <div className={styles.project_card}>
                 <a href={value.link}>
-                  <img
-                    id={styles['midih_logo']}
-                    className={styles.project_card_img}
-                    alt='project card'
-                    src={value.picture}
-                  />
+                  {index === 1 ? (
+                    <img
+                      id={styles['midih_logo']}
+                      className={styles.project_card_img}
+                      alt='project card'
+                      src={value.picture}
+                    />
+                  ) : (
+                    <img
+                      className={styles.project_card_img}
+                      alt='project card'
+                      src={value.picture}
+                    />
+                  )}
                 </a>
                 <p>{value.project}</p>
                 <p>{value.description}</p>

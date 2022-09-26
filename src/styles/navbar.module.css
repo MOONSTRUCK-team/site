@@ -1,4 +1,5 @@
 .navbar_container {
+  background: rgb(0 0 0 / 50%);
   position: fixed;
   width: 100%;
   box-sizing: border-box;
@@ -9,7 +10,6 @@
   align-items: center;
   padding: 20px;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar_links {

@@ -5,7 +5,7 @@
       rgb(26, 24, 24) 0%,
       rgba(26, 24, 24, 0.01) 0.7%
     ),
-    url('../images/background1.png');
+    url('../images/background1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: bottom;
