@@ -162,7 +162,7 @@ const Web25 = () => {
                   />
                 </div>
                 <div className='optionalParent'>
-                  <div className='clear foot'>
+                  <div className={`${styles.chimp_container} clear foot`}>
                     <input
                       type='submit'
                       defaultValue={'Subscribe'}

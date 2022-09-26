@@ -22,11 +22,12 @@
 .form_container {
   position: relative;
   margin: auto;
+  width: 75%;
 }
 
 .mc_embed_signup {
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid black;
   border-radius: 4px;
   background: rgb(107 107 107 / 20%);
@@ -34,9 +35,12 @@
 
 .submit_btn {
   background: white !important;
-  margin-left: 35%;
+  width: 40%;
 }
 
-.chimp_logo {
-  margin-left: 20%;
+.chimp_container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
