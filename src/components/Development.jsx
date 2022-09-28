@@ -29,29 +29,30 @@ const Development = () => {
         </div>
         <div>
           <div className={styles.moons_text__wrapper}>
-            <p>
-              <span>
-                DAO <br /> launching
-              </span>
-            </p>
-            <p>
-              DeFi <br />
-              development
-            </p>
-            <p>
-              Smart contract <br />
-              development <br />
-              and audits
-            </p>
-            <p>
-              <span>
-                DApp <br />
-                development
-              </span>
-            </p>
+            <div className={styles.moons_text_description}>
+              <h2>01</h2>
+              <h3>IDEATION DESIGN</h3>
+              <p>Hybrid Blockchain Applications Development</p>
+            </div>
+            <div className={styles.moons_text_description}>
+              <h2>02</h2>
+              <h3>PROOF OF CONCEPT DEVELOPMENT</h3>
+              <p>Private Blockchain Development</p>
+            </div>
+            <div className={styles.moons_text_description}>
+              <h2>03</h2>
+              <h3>MVP LAUNCH</h3>
+              <p>Smart Contract Development and Audits</p>
+            </div>
+            <div className={styles.moons_text_description}>
+              <h2>04</h2>
+              <h3>SCALING SUPPORT</h3>
+              <p>DApp Development</p>
+            </div>
           </div>
           <div className={styles.development_four_moons}>
             <StaticImage
+              className={styles.four_moons_image}
               alt='moons'
               src='../images/four_moons.png'
             />

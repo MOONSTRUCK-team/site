@@ -7,6 +7,7 @@ export default function Header() {
     <div className={styles.header_container}>
       <div className={styles.header_logo2}>
         <StaticImage
+          className={styles.yellow_layer}
           alt='circle'
           src='../images/logo2.png'
         />

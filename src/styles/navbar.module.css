@@ -8,14 +8,21 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
   z-index: 1000;
   padding-left: 10%;
+  padding-right: 10%;
 }
 
-.navbar_links {
-  padding-right: 8.5%;
+.navbar_links::after {
+  content: '';
+  display: block;
+  width: 555px;
+  height: 0.8px;
+  background: white;
+  position: absolute;
 }
+
 .navbar_logo {
   padding-left: 9.5%;
 }
@@ -40,5 +47,13 @@
   .navbar_container {
     display: flex;
     justify-content: center;
+  }
+  .navbar_logo {
+    width: 270px;
+    height: 40px;
+    padding-left: 0;
+  }
+  .logo_container {
+    text-align: center;
   }
 }

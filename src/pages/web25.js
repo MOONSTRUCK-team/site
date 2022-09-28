@@ -8,8 +8,6 @@ const Web25 = () => {
     NAME: '',
   });
 
-  console.log(formNames);
-
   return (
     <div>
       <Navbar></Navbar>

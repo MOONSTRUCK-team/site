@@ -152,6 +152,9 @@
     font-size: 10px;
     width: 200px;
   }
+  .yellow_layer {
+    height: 1000px;
+  }
 }
 
 @media screen and (max-width: 350px) {

@@ -27,6 +27,14 @@ export const projects = {
     picture: ethswarm,
   },
   2: {
+    // name: 'Blockchain reactor',
+    project: 'Consulting and ideatian workshops',
+    link: 'https://bcreactor.com/',
+    description:
+      'Blockchain consulting and technical audit, implementation of Truffle testing for attack vectors and penetration security',
+    picture: blockchainreactor,
+  },
+  3: {
     // name: 'DeFire',
     project:
       'DEX Aggregation Platform for Transaction Optimization for Cardano',
@@ -35,14 +43,6 @@ export const projects = {
       'Blockchain architecture, software development and technical consulting services',
     stack: 'Solidity, Golang, React',
     picture: defire,
-  },
-  3: {
-    // name: 'CryptoLeaf',
-    project: 'Consulting and ideatian workshops',
-    link: 'https://bcreactor.com/',
-    description:
-      'Blockchain consulting and technical audit, implementation of Truffle testing for attack vectors and penetration security',
-    picture: blockchainreactor,
   },
   4: {
     // name: 'Disberse',
@@ -63,18 +63,18 @@ export const projects = {
     picture: tycoon,
   },
   6: {
+    // name: 'GreenPower (DasCoin)',
+    project: 'MLM Reward Platform and Cryptocurrency',
+    link: 'https://www.grnpower.io',
+    description: 'Blockchain consulting and security implementation',
+    picture: greenpower,
+  },
+  7: {
     // name: 'AgAu',
     project: 'Peer-to-Peer Electronic Money System and Cryptocurrency',
     link: 'https://www.agau.io',
     description:
       'Blockchain architecture planning and software development services',
     picture: agau,
-  },
-  7: {
-    // name: 'GreenPower (DasCoin)',
-    project: 'MLM Reward Platform and Cryptocurrency',
-    link: 'https://www.grnpower.io',
-    description: 'Blockchain consulting and security implementation',
-    picture: greenpower,
   },
 };

@@ -3,7 +3,6 @@ import { projects } from '../utill/projects';
 import { EUProjects } from '../utill/EUProjects';
 import * as styles from '../styles/projects.module.css';
 const Projects = () => {
-  console.log(projects);
   return (
     <div
       id='project'
@@ -17,8 +16,8 @@ const Projects = () => {
           {Object.entries(projects).map(([key, value]) => {
             return (
               <div
-                className={styles.project_card}
                 key={key}
+                className={styles.project_card}
               >
                 <a href={value.link}>
                   <img

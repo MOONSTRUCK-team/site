@@ -20,14 +20,14 @@
 }
 
 .moons_text__wrapper {
-  padding-top: 80px;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
-  line-height: 32px;
+  line-height: 24px;
+  padding-left: 5%;
+  width: 100%;
 }
 
-.moons_text__wrapper > p {
+.moons_text_description {
   width: 20%;
   margin-bottom: 0;
   height: 165px;
@@ -38,24 +38,44 @@
   padding: 16px;
 }
 
-.moons_text__wrapper > p:nth-child(4),
-.moons_text__wrapper > p:nth-child(1) {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  text-align: center;
+.moons_text_description > h2 {
+  font-size: 6rem;
+  padding: 0;
+  margin: 0;
 }
 
-.moons_text__wrapper > p:nth-child(2),
-.moons_text__wrapper > p:nth-child(3) {
+.moons_text_description > h3 {
+  font-size: 2.3rem;
+  color: #fff200;
+  margin: 0;
+}
+
+.moons_text_description > p {
+  font-size: 15px;
+}
+
+.moons_text__wrapper > div:nth-child(4),
+.moons_text__wrapper > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
   position: relative;
   top: 50px;
-  text-align: center;
+}
+
+.moons_text__wrapper > div:nth-child(2),
+.moons_text__wrapper > div:nth-child(3) {
+  position: relative;
+  text-align: start;
 }
 
 .development_four_moons {
   display: 'flex';
   justify-content: 'center';
+}
+.four_moons_image {
+  width: 90%;
 }
 
 .development_text_wrapper > h2 {
@@ -122,15 +142,42 @@
   .technical_skills > p {
     font-size: 20px;
   }
-  .moons_text__wrapper > p:nth-child(2) {
-    padding-top: 3%;
+  .moons_text__wrapper {
+    padding-bottom: 5%;
   }
-  .moons_text__wrapper > p:nth-child(1),
-  .moons_text__wrapper > p:nth-child(4) {
-    padding-top: 5%;
+  .moons_text_description {
+    padding-bottom: 10px;
+  }
+  .moons_text__wrapper > div:nth-child(2),
+  .moons_text__wrapper > div:nth-child(3) {
+    top: 50px;
+  }
+  .moons_text__wrapper > div:nth-child(1),
+  .moons_text__wrapper > div:nth-child(4) {
+    top: 130px;
+  }
+  .moons_text_description > h2 {
+    font-size: 4.1rem;
+    font-weight: 600;
+  }
+  .moons_text_description > h3 {
+    font-size: 2rem;
+  }
+  .moons_text_description > p {
+    font-size: 12px;
+    line-height: normal;
   }
 }
-
+@media screen and (max-width: 1000px) {
+  .moons_text__wrapper > div:nth-child(1),
+  .moons_text__wrapper > div:nth-child(4) {
+    top: 60px;
+  }
+  .moons_text__wrapper > div:nth-child(2),
+  .moons_text__wrapper > div:nth-child(3) {
+    top: 20px;
+  }
+}
 @media screen and (max-width: 750px) {
   .development_text_wrapper > h2 {
     font-size: 50px;
@@ -151,9 +198,23 @@
   .moons_text__wrapper > p {
     padding-bottom: 0;
   }
+  .moons_text_description > h2 {
+    font-size: 3rem;
+  }
+  .moons_text_description > h3 {
+    font-size: 1.7rem;
+    font-weight: normal;
+  }
+  .moons_text_description > p {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width: 550px) {
+  .moons_text__wrapper {
+    padding-top: 0px;
+  }
+
   .development_text_wrapper > h2 {
     font-size: 40px;
   }
@@ -163,16 +224,30 @@
   .development_text_wrapper > p {
     font-size: 15px;
   }
-  .moons_text__wrapper > p {
-    font-size: 14px;
-    line-height: 14px;
-    width: 250px;
+  .moons_text__wrapper {
+    width: 350px;
+    padding-left: 0;
+    padding-right: 0;
   }
-  .moons_text__wrapper > p:nth-child(2),
-  .moons_text__wrapper > p:nth-child(3) {
-    position: relative;
-    top: 100px;
-    text-align: center;
+  .moons_text__wrapper > div:nth-child(2),
+  .moons_text__wrapper > div:nth-child(3) {
+    top: 50px;
+    padding-left: 5px;
+  }
+  .moons_text__wrapper > div:nth-child(1),
+  .moons_text__wrapper > div:nth-child(4) {
+    top: 70px;
+    padding-left: 5px;
+  }
+
+  .moons_text_description > h2 {
+    font-size: 2rem;
+  }
+  .moons_text_description > h3 {
+    font-size: 1.3rem;
+  }
+  .moons_text_description > p {
+    font-size: 1rem;
   }
 }
 
@@ -180,15 +255,21 @@
   .development_text_wrapper > p {
     width: 300px;
   }
-  .moons_text__wrapper > p:nth-child(2),
-  .moons_text__wrapper > p:nth-child(3) {
-    position: relative;
-    top: 85px;
-    text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+  .moons_text__wrapper > div:nth-child(2),
+  .moons_text__wrapper > div:nth-child(3) {
+    padding-left: 5px;
+  }
+  .moons_text__wrapper > div:nth-child(2),
+  .moons_text__wrapper > div:nth-child(3) {
+    padding-left: 10px;
+  }
+  .four_moons_image {
+    width: 100%;
   }
   .moons_text__wrapper > p {
     font-size: 12px;
+  }
+  .moons_text__wrapper {
+    width: 300px;
   }
 }

@@ -33,9 +33,9 @@
 }
 
 .projects > div:nth-child(1),
-.projects > div:nth-child(4),
+.projects > div:nth-child(3),
 .projects > div:nth-child(5),
-.projects > div:nth-child(8) {
+.projects > div:nth-child(7) {
   background-color: #e3e3e3;
   color: #000000;
   background-image: radial-gradient(
@@ -47,9 +47,9 @@
 }
 
 .projects > div:nth-child(2),
-.projects > div:nth-child(3),
+.projects > div:nth-child(4),
 .projects > div:nth-child(6),
-.projects > div:nth-child(7) {
+.projects > div:nth-child(8) {
   background-color: #191919;
   color: white;
 }
@@ -107,6 +107,16 @@
   #midih_logo {
     width: 120px;
     height: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects > div:nth-child(2),
+  .projects > div:nth-child(4),
+  .projects > div:nth-child(6),
+  .projects > div:nth-child(8) {
+    background-color: #000000;
+    color: #e3e3e3;
   }
 }
 @media screen and (max-width: 750px) {

@@ -12,9 +12,9 @@ const IndexPage = () => {
   return (
     <>
       <Navbar></Navbar>
-      <Header></Header>
-      <WhatWeDo></WhatWeDo>
       <Development></Development>
+      <WhatWeDo></WhatWeDo>
+      <Header></Header>
       <Projects></Projects>
       <Footer></Footer>
     </>
