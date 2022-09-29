@@ -70,9 +70,6 @@
 
 .what_we_do_card > p {
   color: #000;
-  /* font-family: 'teko regular'; */
-  /* font-family: 'saira regular'; */
-  /* font-family: 'genos regular'; */
   font-family: 'cutive mono';
   font-size: 23px;
   font-weight: 200;
@@ -125,8 +122,9 @@
   }
   .what_we_do_text > h2 {
     font-size: 50px;
-    line-height: 10px;
+    line-height: normal;
     padding: 0;
+    width: 350px;
   }
   .what_we_do_text_box > p {
     font-size: 15px;
