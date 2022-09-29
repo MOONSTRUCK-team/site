@@ -166,12 +166,10 @@ const Web25 = () => {
                       defaultValue={'Subscribe'}
                       name='subscribe'
                       id='mc-embedded-subscribe'
-                      // className='button'
-                      className={styles.submit_btn}
+                      className={`${styles.submit_btn} button`}
                     />
                     <p className='brandingLogo'>
                       <a
-                        className={styles.chimp_logo}
                         href='http://eepurl.com/h-6iJr'
                         title='Mailchimp - email marketing made easy and fun'
                       >

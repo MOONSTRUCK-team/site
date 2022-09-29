@@ -5,7 +5,10 @@ import * as styles from '../styles/footer.module.css';
 const Footer = () => {
   return (
     <footer>
-      <div id='contact'>
+      <div
+        id='contact'
+        className={styles.footer_container}
+      >
         <div className={styles.footer_logo_container}>
           <StaticImage
             className={styles.contact_logo}

@@ -4,7 +4,7 @@
       rgb(26, 24, 24) 0%,
       rgba(26, 24, 24, 0.01) 0.7%
     ),
-    url('../images/background2.jpg');
+    url('../images/background2.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -19,11 +19,10 @@
 }
 
 .what_we_do_text > h2 {
-  font-size: 115px;
-  line-height: 26px;
   color: #fff200;
+  font-family: 'teko regular';
+  font-size: 115px;
   font-weight: 600;
-  font-family: teko regular;
   line-height: 64px;
   padding: 5px;
 }
@@ -38,7 +37,7 @@
   font-size: 22px;
   color: #ffffff;
   font-weight: 300;
-  font-family: saira regular;
+  font-family: 'cutive mono';
   line-height: 24px;
   padding-left: 15px;
 }
@@ -55,7 +54,7 @@
   width: 20%;
   padding: 0px 15px;
   font-size: 18px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .what_we_do_picture {
@@ -68,15 +67,15 @@
   line-height: 38px;
   color: #000000;
   font-weight: 400;
-  font-family: teko regular;
+  font-family: 'teko regular';
 }
 
 .what_we_do_card > p {
-  font-family: teko regular;
-  color: #000000;
+  color: #000;
+  font-family: 'teko regular';
   font-size: 30px;
-  line-height: 25px;
   font-weight: 100;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -148,11 +147,17 @@
 }
 
 @media screen and (max-width: 450px) {
+  .what_we_do_container {
+    background-size: 100% 3%;
+  }
   .what_we_do_text {
     top: 50px;
   }
   .what_we_do_text_box {
     width: 250px;
+  }
+  .what_we_do_text > h2 {
+    font-size: 40px;
   }
   .what_we_do_text_box > p {
     line-height: 19px;

@@ -5,11 +5,12 @@
 }
 
 .projects_text {
-  font-family: 'teko regular';
+  position: relative;
+  top: 20px;
+  font-family: 'monteserrat';
   font-size: 51.11px;
   line-height: 64px;
   color: #000000;
-  font-weight: 400;
 }
 
 .projects {
@@ -23,13 +24,6 @@
   height: 220px;
   margin: 12px;
   border-radius: 4px;
-  background: white;
-  background-image: radial-gradient(
-    rgba(72, 74, 86, 0.84),
-    0.8px,
-    transparent 0
-  );
-  background-size: 12px 12px;
 }
 
 .projects > div:nth-child(1),
@@ -38,12 +32,6 @@
 .projects > div:nth-child(7) {
   background-color: #e3e3e3;
   color: #000000;
-  background-image: radial-gradient(
-    rgba(197, 193, 223, 0.84),
-    0.8px,
-    transparent 0
-  );
-  background-size: 12px 12px;
 }
 
 .projects > div:nth-child(2),
@@ -66,6 +54,7 @@
 .project_card > p {
   margin: 10px;
   text-align: center;
+  font-family: 'cutive mono';
 }
 
 .project_card_img {

@@ -3,7 +3,6 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
 import * as styles from '../styles/navbar.module.css';
-import '../styles/index.css';
 import { Link } from 'gatsby';
 
 export default function Navbar() {

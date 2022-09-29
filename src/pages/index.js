@@ -1,4 +1,5 @@
 import * as React from 'react';
+import '../styles/index.css';
 import Header from '../components/Header';
 import WhatWeDo from '../components/WhatWeDo';
 import Development from '../components/Development';

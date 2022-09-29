@@ -9,7 +9,7 @@
       rgb(26, 24, 24) 0%,
       rgba(26, 24, 24, 0.01) 100%
     ),
-    url(/static/background1-f67f47be459de099802c08cfd7749efd.jpg);
+    url('../images/background1.jpg');
   color: white;
   background-size: cover;
   padding-top: 70px;

@@ -1,4 +1,14 @@
 @font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'cutive mono';
+  src: url('../fonts/cutivemono/CutiveMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'saira regular';
   src: url('../fonts/saira/Saira-Regular.ttf') format('truetype');
 }

@@ -1,13 +1,6 @@
 footer {
   height: 15%;
   background-color: black;
-  /* background: white; */
-  background-image: radial-gradient(
-    rgba(72, 74, 86, 0.84),
-    0.8px,
-    transparent 0
-  );
-  background-size: 12px 12px;
   padding-bottom: 1%;
 }
 
@@ -84,6 +77,9 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+  .footer_container {
+    width: 100%;
+  }
   .contact_container__social > div {
     margin-left: 10%;
   }
@@ -93,5 +89,10 @@ footer {
   .contact_info > p {
     font-size: 12.5px;
     line-height: 17px;
+  }
+  .contact_info_wrapper {
+    width: 95%;
+    padding: 0;
+    margin: 0;
   }
 }
