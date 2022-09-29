@@ -111,7 +111,6 @@
 .technical_skills > p {
   font-size: 26px;
   color: #ffffff;
-  /* font-family: 'teko regular'; */
   font-family: 'cutive mono';
   text-align: center;
 }
@@ -245,7 +244,7 @@
     font-size: 2rem;
   }
   .moons_text_description > h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .moons_text_description > p {
     font-size: 1rem;
@@ -263,7 +262,7 @@
   }
   .moons_text__wrapper > div:nth-child(2),
   .moons_text__wrapper > div:nth-child(3) {
-    margin-left: 10px;
+    margin-left: 18px;
   }
   .four_moons_image {
     width: 100%;
