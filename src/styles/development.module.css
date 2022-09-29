@@ -33,8 +33,6 @@
   height: 165px;
   font-size: 26px;
   color: #ffffff;
-  /* font-weight: 400; */
-  font-family: 'cutive mono';
   padding: 16px;
 }
 
@@ -45,14 +43,15 @@
 }
 
 .moons_text_description > h3 {
+  font-family: 'montserrat';
   font-size: 2.3rem;
   color: #fff200;
   margin: 0;
-  font-family: 'saira regular';
 }
 
 .moons_text_description > p {
   font-size: 15px;
+  font-family: 'cutive mono';
 }
 
 .moons_text__wrapper > div:nth-child(4),
@@ -81,8 +80,8 @@
 
 .development_text_wrapper > h2 {
   color: #fff200;
-  font-family: 'teko regular';
-  font-size: 115px;
+  font-family: 'montserrat';
+  font-size: 60px;
   font-weight: 600;
   line-height: 64px;
   width: 85%;
@@ -112,7 +111,7 @@
 .technical_skills > p {
   font-size: 26px;
   color: #ffffff;
-  font-weight: 400;
+  /* font-family: 'teko regular'; */
   font-family: 'cutive mono';
   text-align: center;
 }

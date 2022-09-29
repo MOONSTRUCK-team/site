@@ -18,6 +18,13 @@
 .web25_container > h2 {
   text-align: center;
   margin-top: 25px;
+  font-family: 'montserrat';
+  font-size: 60px;
+}
+
+.web25_container > p {
+  font-family: 'cutive mono';
+  font-size: 22px;
 }
 
 .form_container {
@@ -36,12 +43,14 @@
 
 .submit_btn {
   background: white !important;
-  width: 40%;
 }
 
 .chimp_container {
   padding-top: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  text-align: center;
+}
+@media screen and (max-width: 750px) {
+  .form_container {
+    width: 100%;
+  }
 }

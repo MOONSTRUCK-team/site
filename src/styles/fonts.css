@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: 'montserrat light';
+  src: url('../fonts/montserrat/static/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'cutive mono';
   src: url('../fonts/cutivemono/CutiveMono-Regular.ttf') format('truetype');
 }

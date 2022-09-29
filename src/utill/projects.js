@@ -6,6 +6,9 @@ import disberse from '../images/projects/disberse.webp';
 import agau from '../images/projects/agau.png';
 import greenpower from '../images/projects/greenpower.png';
 import blockchainreactor from '../images/projects/blockchainreactor.png';
+import tagitsmart from '../images/projects/tagitsmart.png';
+import midih from '../images/projects/MIDIH.png';
+
 export const projects = {
   0: {
     // name: 'Bitcoin.com',
@@ -76,5 +79,19 @@ export const projects = {
     description:
       'Blockchain architecture planning and software development services',
     picture: agau,
+  },
+  8: {
+    // name: 'TAGITSMART',
+    link: 'https://tagitsmart.eu',
+    description:
+      "Smart Tags driven service platform for enabling ecosystems of connected objects. Funded by European Union's Horizon 2020 Research and Innovation Programme.",
+    picture: tagitsmart,
+  },
+  9: {
+    // name: 'MIDIH',
+    link: 'https://www.midih.eu',
+    description:
+      "Manufacturing Industry Digital Innovation Hubs. Funded by European Union's Horizon 2020 Research and Innovation Programme.",
+    picture: midih,
   },
 };

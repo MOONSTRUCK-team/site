@@ -1,31 +1,49 @@
 import React from 'react';
 import { projects } from '../utill/projects';
-import { EUProjects } from '../utill/EUProjects';
 import * as styles from '../styles/projects.module.css';
+import { StaticImage } from 'gatsby-plugin-image';
 const Projects = () => {
   return (
     <>
+      <StaticImage
+        className={styles.projects_yellow}
+        src='../images/yellow_layer.png'
+        alt='yellow layer'
+      ></StaticImage>
       <div
         id='project'
         className={styles.projects_background}
       >
         <div>
-          <h2 className={styles.projects_text}>
-            Relevant Web 3.0 and Blockchain projects
-          </h2>
+          <h2 className={styles.projects_text}>PROJECTS</h2>
+          <p className={styles.projects_paragraph}>
+            Experienced team with unique insights and sector-specific knowledge
+            in building transformative blockchain solutions can assist you to
+            accelerate your company with hands-on development support from
+            inception through all ahases of growth.
+          </p>
           <div className={styles.projects}>
-            {Object.entries(projects).map(([key, value]) => {
+            {Object.entries(projects).map(([key, value], index) => {
               return (
                 <div
                   key={key}
                   className={styles.project_card}
                 >
                   <a href={value.link}>
-                    <img
-                      className={styles.project_card_img}
-                      alt='project card'
-                      src={value.picture}
-                    />
+                    {index === 9 ? (
+                      <img
+                        id='midih_logo'
+                        className={styles.project_card_img}
+                        alt='project card'
+                        src={value.picture}
+                      />
+                    ) : (
+                      <img
+                        className={styles.project_card_img}
+                        alt='project card'
+                        src={value.picture}
+                      />
+                    )}
                   </a>
                   <p>{value.project}</p>
                   <p>{value.description}</p>
@@ -34,7 +52,7 @@ const Projects = () => {
               );
             })}
           </div>
-          <h2 className={styles.projects_text}>Relevant EU funded projects</h2>
+          {/* <h2 className={styles.projects_text}>Relevant EU funded projects</h2>
           <div className={styles.projects}>
             {Object.entries(EUProjects).map(([key, value], index) => {
               return (
@@ -64,7 +82,7 @@ const Projects = () => {
                 </div>
               );
             })}
-          </div>
+          </div> */}
         </div>
       </div>
     </>

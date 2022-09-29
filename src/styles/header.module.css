@@ -26,15 +26,15 @@
 
 .header_simply {
   position: inherit;
-  top: -205px;
+  top: -220px;
   margin-left: 10%;
   color: black;
 }
 
 .header_simply > h2 {
   color: #000;
-  font-family: 'teko regular';
-  font-size: 115px;
+  font-family: 'montserrat';
+  font-size: 60px;
   font-weight: 600;
   line-height: 26px;
 }
@@ -42,9 +42,9 @@
 .header_simply > p {
   padding-top: 20px;
   width: 700px;
-  font-size: 22px;
   color: #000000;
   font-weight: bold;
+  font-size: 27px;
   font-family: 'cutive mono';
   line-height: 28.75px;
 }
@@ -54,13 +54,14 @@
     top: -160px;
   }
   .header_simply > h2 {
-    font-size: 70px;
-    line-height: 13px;
+    font-size: 45px;
+    line-height: 10px;
   }
   .header_simply > p {
     font-size: 18px;
     width: 500px;
     padding: 10px;
+    line-height: 20px;
   }
   .header_yellow_layer {
     top: 300px;

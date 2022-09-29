@@ -13,9 +13,9 @@ const IndexPage = () => {
   return (
     <>
       <Navbar></Navbar>
+      <Header></Header>
       <Development></Development>
       <WhatWeDo></WhatWeDo>
-      <Header></Header>
       <Projects></Projects>
       <Footer></Footer>
     </>
