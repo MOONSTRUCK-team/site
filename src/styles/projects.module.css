@@ -234,4 +234,7 @@
   .project_card {
     height: 265px;
   }
+  .projects {
+    top: -50px;
+  }
 }
