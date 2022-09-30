@@ -7,7 +7,7 @@ const Projects = () => {
     <>
       <StaticImage
         className={styles.projects_yellow}
-        src='../images/yellow_layer.png'
+        src='../images/yellow_layer2.png'
         alt='yellow layer'
       ></StaticImage>
       <div

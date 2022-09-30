@@ -145,7 +145,8 @@
   }
 
   .header_simply > h2 {
-    font-size: 22px;
+    font-size: 18px;
+    margin-bottom: 0;
   }
 
   .header_simply > p {

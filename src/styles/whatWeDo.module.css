@@ -25,6 +25,7 @@
   font-weight: 600;
   line-height: 64px;
   padding: 5px;
+  padding-bottom: 0;
 }
 
 .what_we_do_text_box {
@@ -45,6 +46,8 @@
   display: flex;
   flex-direction: row;
   padding-left: 10%;
+  position: relative;
+  top: -30px;
 }
 
 .what_we_do_card {
@@ -107,18 +110,17 @@
 
 @media screen and (max-width: 750px) {
   .what_we_do_card_container {
+    padding-left: 15%;
     display: inline-block;
     justify-content: center;
-    padding-left: 10%;
     text-align: center;
-    padding-left: 15%;
   }
   .what_we_do_card:nth-child(1),
   .what_we_do_card:nth-child(2),
   .what_we_do_card:nth-child(3),
   .what_we_do_card:nth-child(4) {
-    float: left;
-    width: 200px;
+    /* float: left; */
+    width: 270px;
   }
   .what_we_do_text > h2 {
     font-size: 50px;
@@ -142,7 +144,7 @@
 
 @media screen and (max-width: 500px) {
   .what_we_do_card_container {
-    margin-left: 20%;
+    margin-left: 17%;
   }
 }
 
@@ -157,13 +159,15 @@
     width: 250px;
   }
   .what_we_do_text > h2 {
-    font-size: 40px;
+    font-size: 30px;
+    width: 250px;
   }
   .what_we_do_text_box > p {
     line-height: 19px;
   }
   .what_we_do_card_container {
-    padding-left: 8px;
+    padding-left: 0px;
+    margin-left: 10%;
   }
   .what_we_do_text {
     width: 200px;

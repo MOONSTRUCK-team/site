@@ -89,9 +89,7 @@ export default function WhatWeDo() {
             Based on your needs, we provide periodic spot checks or dedicated
             maintenance with support teams. With extended development teams, we
             can assist you in scaling your development capacity and upgrading
-            your service. Years of experience collaborating with academic and
-            research institutions on innovative products and services has given
-            us acces to
+            your service.
           </p>
         </div>
       </div>

@@ -13,7 +13,6 @@ const Web25 = () => {
       <Navbar></Navbar>
       <div className={styles.web25_container}>
         <h2>Web 2.5</h2>
-        {/* <div> */}
         <p>
           Web 2.5 Academy is a program designed to include a broader range of
           participants with basic programming skills, primarily in Python or
@@ -30,39 +29,43 @@ const Web25 = () => {
         </p>
         <p>The program will consist of 6 modules:</p>
         <p>
-          Fundamentals of Cryptography - Acquire a working knowledge of
-          cryptographic primitives used in blockchain technology: hash
-          functions, public key cryptography systems, encryption and digital
-          signatures.
+          <strong>Fundamentals of Cryptography</strong> - Acquire a working
+          knowledge of cryptographic primitives used in blockchain technology:
+          hash functions, public key cryptography systems, encryption and
+          digital signatures.
         </p>
         <p>
-          Basics of Blockchain Technology, Ledger Systems and Cryptocurrencies -
-          Blockchain as a data structure, taxonomy of distributed ledger
+          <strong>
+            Basics of Blockchain Technology, Ledger Systems and Cryptocurrencies{' '}
+          </strong>
+          - Blockchain as a data structure, taxonomy of distributed ledger
           systems, the concept of consensus and consensus algorithms (proof of
           work, proof of stake, proof of authority).
         </p>
         <p>
-          Javascript and NodeJS - Introduction to programming in JavaScript,
-          language concepts and structures (objects, functions), synchronous and
-          asynchronous programming, NodeJS as a platform.
+          <strong>Javascript and NodeJS</strong> - Introduction to programming
+          in JavaScript, language concepts and structures (objects, functions),
+          synchronous and asynchronous programming, NodeJS as a platform.
         </p>
         <p>
-          Basics of Smart Contracts - Solidity, EVM - Introduction to
-          programming blockchain and Ethereum Virtual Machine (transactions,
-          accounts, storage), writing smart contracts in Solidity language and
-          supporting tools (Remix IDE)
+          <strong>Basics of Smart Contracts</strong> - Solidity, EVM -
+          Introduction to programming blockchain and Ethereum Virtual Machine
+          (transactions, accounts, storage), writing smart contracts in Solidity
+          language and supporting tools (Remix IDE)
         </p>
         <p>
-          Web Frontend - HTML, CSS, JS - Basics of Web Programming, HTML and
-          Hypertext, Web Page Structure and DOM, Javascript in Browser
+          <strong>Web Frontend</strong> - HTML, CSS, JS - Basics of Web
+          Programming, HTML and Hypertext, Web Page Structure and DOM,
+          Javascript in Browser
         </p>
         <p>
-          Decentralized applications and Web integration of smart contracts -
-          Web3 concept and decentralized applications, IPFS storage, synergy of
-          previous knowledge and concepts (Solidity, JS, Web) creates a complete
-          and functional application.
+          <strong>
+            Decentralized applications and Web integration of smart contracts
+          </strong>
+          - Web3 concept and decentralized applications, IPFS storage, synergy
+          of previous knowledge and concepts (Solidity, JS, Web) creates a
+          complete and functional application.
         </p>
-        {/* </div> */}
         <div className={styles.form_container}>
           <div
             id='mc_embed_signup'
