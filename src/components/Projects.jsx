@@ -4,7 +4,7 @@ import * as styles from '../styles/projects.module.css';
 import { StaticImage } from 'gatsby-plugin-image';
 const Projects = () => {
   return (
-    <>
+    <div className={styles.projects_container}>
       <StaticImage
         className={styles.projects_yellow}
         src='../images/yellow_layer2.png'
@@ -30,20 +30,11 @@ const Projects = () => {
                   className={styles.project_card}
                 >
                   <a href={value.link}>
-                    {index === 9 ? (
-                      <img
-                        id='midih_logo'
-                        className={styles.project_card_img}
-                        alt='project card'
-                        src={value.picture}
-                      />
-                    ) : (
-                      <img
-                        className={styles.project_card_img}
-                        alt='project card'
-                        src={value.picture}
-                      />
-                    )}
+                    <img
+                      className={styles.project_card_img}
+                      alt='project card'
+                      src={value.picture}
+                    />
                   </a>
                   <p>{value.project}</p>
                   <p>{value.description}</p>
@@ -85,7 +76,7 @@ const Projects = () => {
           </div> */}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

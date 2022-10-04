@@ -22,11 +22,11 @@ footer {
 }
 
 .contact_info {
-  font-size: 19px;
+  font-size: 15px;
   color: #ffffff;
   font-weight: 400;
-  /* font-family: 'saira regular'; */
   font-family: 'cutive mono';
+  line-height: 1.2em;
 }
 
 .contact_info > p {
@@ -43,14 +43,6 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-  .header_simply {
-    position: inherit;
-    top: -160px;
-  }
-  .header_simply > h2 {
-    font-size: 70px;
-    line-height: 13px;
-  }
   .footer_logo_container {
     padding: 0;
     text-align: center;
@@ -94,8 +86,7 @@ footer {
     height: 80px;
   }
   .contact_info > p {
-    font-size: 12.5px;
-    line-height: 17px;
+    font-size: 17px;
   }
   .contact_info_wrapper {
     width: 95%;

@@ -22,7 +22,7 @@
 .moons_text__wrapper {
   display: flex;
   flex-direction: row;
-  line-height: 24px;
+  line-height: 1.2em;
   padding-left: 5%;
   width: 100%;
 }
@@ -83,13 +83,13 @@
   font-family: 'montserrat';
   font-size: 60px;
   font-weight: 600;
-  line-height: 64px;
+  line-height: 1.2em;
   width: 85%;
 }
 
 .development_text_wrapper > p {
   width: 80%;
-  font-size: 22px;
+  font-size: 27px;
   color: #ffffff;
   text-align: justify;
   font-weight: 400;
@@ -109,7 +109,7 @@
 }
 
 .technical_skills > p {
-  font-size: 26px;
+  font-size: 27px;
   color: #ffffff;
   font-family: 'cutive mono';
   text-align: center;
@@ -122,15 +122,9 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
-  .development_text_wrapper > h2 {
-    line-height: 80px;
-  }
-}
 @media screen and (max-width: 1300px) {
   .development_text_wrapper > h2 {
     font-size: 40px;
-    line-height: 50px;
     width: 100%;
   }
   .development_text_wrapper > p {
@@ -166,7 +160,6 @@
   }
   .moons_text_description > p {
     font-size: 12px;
-    line-height: normal;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -188,7 +181,6 @@
   }
   .moons_text__wrapper > p {
     font-size: 17px;
-    line-height: normal;
   }
   .technical_skills > p {
     font-size: 17px;
@@ -253,9 +245,6 @@
 }
 
 @media screen and (max-width: 450px) {
-  .development_text_wrapper > p {
-    width: 300px;
-  }
   .moons_text__wrapper > div:nth-child(1),
   .moons_text__wrapper > div:nth-child(4) {
     margin-left: 5px;
@@ -269,13 +258,20 @@
     width: 100%;
   }
   .moons_text__wrapper > p {
-    font-size: 12px;
+    font-size: 17px;
   }
   .moons_text__wrapper {
     width: 220px;
   }
   .development_text_wrapper > h2 {
     font-size: 22px;
+    width: 320px;
+  }
+  .development_text_wrapper > p {
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 0;
+    margin-right: 0;
   }
 }
 

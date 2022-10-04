@@ -82,7 +82,7 @@ export default function WhatWeDo() {
               src='../images/support_picture.png'
             />
           </div>
-          <h2>Support</h2>
+          <h2>SUPPORT</h2>
           <p>
             Once product development is finalized, we can offer support,
             ensuring that the software continues to operate at a high level.

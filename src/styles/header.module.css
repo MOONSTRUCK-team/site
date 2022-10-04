@@ -26,7 +26,7 @@
 
 .header_simply {
   position: inherit;
-  top: -240px;
+  top: -290px;
   margin-left: 10%;
   color: black;
 }
@@ -36,17 +36,17 @@
   font-family: 'montserrat';
   font-size: 60px;
   font-weight: 600;
-  line-height: 26px;
+  line-height: 1.2em;
 }
 
 .header_simply > p {
   padding-top: 20px;
-  width: 700px;
+  width: 900px;
   color: #000000;
   font-weight: bold;
   font-size: 27px;
   font-family: 'cutive mono';
-  line-height: 28.75px;
+  line-height: 1.2em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -55,13 +55,11 @@
   }
   .header_simply > h2 {
     font-size: 45px;
-    line-height: 10px;
   }
   .header_simply > p {
     font-size: 18px;
     width: 500px;
     padding: 10px;
-    line-height: 20px;
   }
   .header_yellow_layer {
     top: 300px;
@@ -81,7 +79,6 @@
   .header_simply > p {
     font-size: 16px;
     width: 400px;
-    line-height: normal;
     margin: 0;
     padding: 0;
   }
@@ -99,13 +96,11 @@
   }
   .header_simply > h2 {
     font-size: 38px;
-    line-height: 0;
     margin-bottom: 10px;
   }
   .header_simply > p {
     font-size: 13px;
     width: 300px;
-    line-height: normal;
     padding: 0;
     margin: 0;
     padding-top: 3px;
@@ -119,16 +114,10 @@
   .header_yellow_layer {
     top: 250px;
   }
-  .header_simply {
-    top: -78px;
-  }
   .header_simply > h2 {
     font-size: 35px;
     margin-bottom: 4px;
     padding-bottom: 5px;
-  }
-  .header_simply > p {
-    line-height: 10px;
   }
 }
 
@@ -136,26 +125,24 @@
   .header_container {
     background-position: center;
   }
-  .header_yellow_layer {
-    top: 270px;
-  }
 
   .header_simply {
-    top: -60px;
+    top: -130px;
   }
 
   .header_simply > h2 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 0;
+    color: yellow;
+    width: 150px;
   }
 
   .header_simply > p {
-    line-height: 9px;
-    font-size: 10px;
-    width: 200px;
+    font-size: 15px;
+    color: white;
   }
-  .yellow_layer {
-    height: 1000px;
+  .yellow_pic {
+    display: none;
   }
 }
 
@@ -164,7 +151,6 @@
     top: -60px;
   }
   .header_simply > p {
-    line-height: 10px;
     font-size: 10px;
   }
 }

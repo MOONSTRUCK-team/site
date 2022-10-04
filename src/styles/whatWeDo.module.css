@@ -1,21 +1,13 @@
 .what_we_do_container {
-  background-image: linear-gradient(
-      180deg,
-      rgb(26, 24, 24) 0%,
-      rgba(26, 24, 24, 0.01) 0.7%
-    ),
-    url('../images/background2.png');
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 100%;
 }
 
 .what_we_do_text {
-  position: relative;
-  top: 80px;
-  margin-left: 10%;
-  width: 85%;
-  height: 470px;
+  height: 500px;
+  background-image: url('../images/background2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
 }
 
 .what_we_do_text > h2 {
@@ -23,23 +15,28 @@
   font-family: 'montserrat';
   font-size: 60px;
   font-weight: 600;
-  line-height: 64px;
+  line-height: 1.2em;
   padding: 5px;
   padding-bottom: 0;
+  position: relative;
+  top: 50px;
+  margin-left: 10%;
 }
 
 .what_we_do_text_box {
-  background-color: rgba(0, 0, 0, 0.6);
   width: 70%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 100px;
+  margin-left: 10%;
 }
 
 .what_we_do_text_box > p {
   height: 10%;
-  color: #ffffff;
-  font-size: 22px;
+  color: white;
+  font-size: 27px;
   font-family: 'cutive mono';
-  line-height: 24px;
-  padding-left: 15px;
+  line-height: 1.2em;
 }
 
 .what_we_do_card_container {
@@ -55,7 +52,6 @@
   width: 20%;
   padding: 0px 15px;
   font-size: 18px;
-  /* text-align: justify; */
 }
 
 .what_we_do_picture {
@@ -64,17 +60,17 @@
 }
 
 .what_we_do_card > h2 {
-  font-size: 51px;
+  font-size: 60px;
   line-height: 38px;
   color: #000000;
-  font-weight: 400;
-  font-family: 'teko regular';
+  font-weight: 600;
+  font-family: 'montserrat';
 }
 
 .what_we_do_card > p {
   color: #000;
   font-family: 'cutive mono';
-  font-size: 23px;
+  font-size: 27px;
   font-weight: 200;
   line-height: 22px;
   text-align: left;
@@ -97,7 +93,8 @@
     font-weight: 500;
   }
   .what_we_do_card > p {
-    font-size: 25px;
+    font-size: 17px;
+    text-align: justify;
     font-weight: 200;
   }
 }
@@ -119,7 +116,6 @@
   .what_we_do_card:nth-child(2),
   .what_we_do_card:nth-child(3),
   .what_we_do_card:nth-child(4) {
-    /* float: left; */
     width: 270px;
   }
   .what_we_do_text > h2 {
@@ -129,7 +125,7 @@
     width: 350px;
   }
   .what_we_do_text_box > p {
-    font-size: 15px;
+    font-size: 17px;
   }
   .what_we_do_text_box {
     width: 350px;
@@ -149,28 +145,31 @@
 }
 
 @media screen and (max-width: 450px) {
-  .what_we_do_container {
-    background-size: 100% 3%;
-  }
   .what_we_do_text {
-    top: 50px;
+    width: 100%;
+    margin: 0;
+    top: auto;
   }
   .what_we_do_text_box {
-    width: 250px;
+    width: 320px;
+    margin-right: 10%;
+    top: 60px;
   }
   .what_we_do_text > h2 {
-    font-size: 30px;
+    font-size: 22px;
     width: 250px;
+    top: 20px;
   }
   .what_we_do_text_box > p {
-    line-height: 19px;
+    line-height: 20px;
+    text-align: justify;
   }
   .what_we_do_card_container {
     padding-left: 0px;
     margin-left: 10%;
   }
-  .what_we_do_text {
-    width: 200px;
+  .what_we_do_card > h2 {
+    font-size: 22px;
   }
 }
 
