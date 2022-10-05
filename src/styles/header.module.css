@@ -144,6 +144,9 @@
   .yellow_pic {
     display: none;
   }
+  .yellow_pic_container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 350px) {
