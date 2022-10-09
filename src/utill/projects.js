@@ -119,16 +119,17 @@ export const projects = {
     picture: midih,
   },
   12: {
-    link: 'https://tsf-network.com/',
-    description: 'Development on infrastructure and protocol layer',
+    link: 'https://libertasgh.com/',
+    description:
+      'Development on infrastructure and protocol layer for TSF blockchain',
+
     picture: libertasTSF,
     stack: 'Geth and Golang',
   },
   13: {
     // name: 'Libertas',
-    link: 'https://libertasgh.com/',
-    description:
-      'Development on infrastructure and protocol layer for TSF blockchain',
+    link: 'https://tsf-network.com/',
+    description: 'Development on infrastructure and protocol layer',
     picture: libertas,
     stack: 'Geth and Golang',
   },

@@ -118,6 +118,15 @@
     font-size: 35px;
     margin-bottom: 4px;
     padding-bottom: 5px;
+    color: yellow;
+    width: 150px;
+  }
+  .header_simply > p {
+    font-size: 17px;
+    color: white;
+  }
+  .yellow_pic {
+    display: none;
   }
 }
 
@@ -139,11 +148,8 @@
 
   .header_simply > p {
     font-size: 15px;
-    color: white;
   }
-  .yellow_pic {
-    display: none;
-  }
+
   .yellow_pic_container {
     display: none;
   }

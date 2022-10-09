@@ -134,11 +134,11 @@
   .what_we_do_card_container {
     justify-content: center;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .what_we_do_card_container {
-    margin-left: 17%;
+  .what_we_do_text > h2 {
+    font-size: 24px;
+  }
+  .what_we_do_card > h2 {
+    font-size: 22px;
   }
 }
 
