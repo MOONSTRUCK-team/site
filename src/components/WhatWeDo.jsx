@@ -65,7 +65,7 @@ export default function WhatWeDo() {
           <div>
             <StaticImage
               alt='develop picture'
-              src='../images/develop2_crna.png'
+              src='../images/Develop2_crna.png'
               className={styles.what_we_do_picture}
             />
           </div>
