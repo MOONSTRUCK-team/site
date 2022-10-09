@@ -1,8 +1,7 @@
 .projects_background {
   background-color: white;
-  height: 100%;
-  padding: 10%;
-  padding-top: 0%;
+  padding-left: 10%;
+  padding-bottom: 0;
 }
 
 .projects_text {
@@ -37,7 +36,7 @@
 }
 .projects > div {
   width: 45%;
-  height: 250px;
+  height: 270px;
   margin: 12px;
   border-radius: 4px;
 }
@@ -46,18 +45,22 @@
 .projects > div:nth-child(3),
 .projects > div:nth-child(5),
 .projects > div:nth-child(7),
-.projects > div:nth-child(9) {
-  background-color: #e3e3e3;
-  color: #000000;
+.projects > div:nth-child(9),
+.projects > div:nth-child(11),
+.projects > div:nth-child(13) {
+  background-color: #191919;
+  color: white;
 }
 
 .projects > div:nth-child(2),
 .projects > div:nth-child(4),
 .projects > div:nth-child(6),
 .projects > div:nth-child(8),
-.projects > div:nth-child(10) {
-  background-color: #191919;
-  color: white;
+.projects > div:nth-child(10),
+.projects > div:nth-child(12),
+.projects > div:nth-child(14) {
+  background-color: #e3e3e3;
+  color: #000000;
 }
 
 .project_card {
@@ -84,8 +87,7 @@
   padding-bottom: 15px;
   padding-top: 15px;
 }
-
-.projects > div:nth-child(10) > a > img {
+.projects > div:nth-child(14) > a > img {
   width: auto;
   height: auto;
 }
@@ -181,12 +183,16 @@
 }
 
 @media screen and (max-width: 450px) {
+  .projects_background {
+    background-color: #000000;
+  }
   .projects_container {
     padding-top: 5%;
-    background-color: #e3e3e3;
+    background-color: #191919;
   }
   .projects_yellow {
-    background-color: #e3e3e3;
+    background-color: #191919;
+
     top: 0px;
   }
   .projects_background {

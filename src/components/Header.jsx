@@ -12,7 +12,7 @@ export default function Header() {
         />
       </div>
       <div className={styles.header_yellow_layer}>
-        <div>
+        <div className={styles.yellow_pic_container}>
           <StaticImage
             class={styles.yellow_pic}
             alt='yellow layer'

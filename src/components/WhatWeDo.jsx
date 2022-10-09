@@ -24,10 +24,11 @@ export default function WhatWeDo() {
       </div>
       <div className={styles.what_we_do_card_container}>
         <div className={styles.what_we_do_card}>
-          <div className={styles.what_we_do_picture}>
+          <div>
             <StaticImage
+              className={styles.what_we_do_picture}
               alt='audit picture'
-              src='../images/audit_picture.png'
+              src='../images/Audit_crna.png'
             />
           </div>
           <h2>AUDIT</h2>
@@ -42,10 +43,11 @@ export default function WhatWeDo() {
           </p>
         </div>
         <div className={styles.what_we_do_card}>
-          <div className={styles.what_we_do_picture}>
+          <div>
             <StaticImage
               alt='design picture'
-              src='../images/design_picture.png'
+              src='../images/Design_crna.png'
+              className={styles.what_we_do_picture}
             />
           </div>
           <h2>DESIGN</h2>
@@ -60,10 +62,11 @@ export default function WhatWeDo() {
           </p>
         </div>
         <div className={styles.what_we_do_card}>
-          <div className={styles.what_we_do_picture}>
+          <div>
             <StaticImage
               alt='develop picture'
-              src='../images/develop_picture.png'
+              src='../images/develop2_crna.png'
+              className={styles.what_we_do_picture}
             />
           </div>
           <h2>DEVELOP</h2>
@@ -76,10 +79,11 @@ export default function WhatWeDo() {
           </p>
         </div>
         <div className={styles.what_we_do_card}>
-          <div className={styles.what_we_do_picture}>
+          <div>
             <StaticImage
               alt='support picture'
-              src='../images/support_picture.png'
+              src='../images/Support2_crna.png'
+              className={styles.what_we_do_picture}
             />
           </div>
           <h2>SUPPORT</h2>

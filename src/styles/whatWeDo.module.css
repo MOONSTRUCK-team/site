@@ -54,14 +54,9 @@
   font-size: 18px;
 }
 
-.what_we_do_picture {
-  padding: 20px 0px;
-  height: 130px;
-}
-
 .what_we_do_card > h2 {
-  font-size: 60px;
-  line-height: 38px;
+  font-size: 45px;
+  line-height: 1.2em;
   color: #000000;
   font-weight: 600;
   font-family: 'montserrat';
@@ -71,11 +66,14 @@
   color: #000;
   font-family: 'cutive mono';
   font-size: 27px;
-  font-weight: 200;
-  line-height: 22px;
+  line-height: 1.2em;
   text-align: left;
 }
-
+.what_we_do_picture {
+  object-fit: contain;
+  width: 130px;
+  height: 130px;
+}
 @media screen and (max-width: 1200px) {
   .what_we_do_text > h2 {
     font-size: 70px;
@@ -170,6 +168,11 @@
   }
   .what_we_do_card > h2 {
     font-size: 20px;
+  }
+  .what_we_do_picture {
+    object-fit: contain;
+    width: 80px;
+    height: 80px;
   }
 }
 
