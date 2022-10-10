@@ -178,6 +178,9 @@
   .what_we_do_card > h2 {
     font-size: 20px;
   }
+  .what_we_do_card {
+    width: 280px;
+  }
 }
 
 @media screen and (max-width: 350px) {
