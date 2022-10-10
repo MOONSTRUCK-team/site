@@ -23,7 +23,7 @@ export default function Header() {
           <h2>SIMPLY FUNCTIONAL</h2>
           <p>
             Taking on the challanges and complexity of your idea, we simplify
-            your equation and make it work, simply, functional
+            your equation and make it work, simply, functional.
           </p>
         </div>
       </div>

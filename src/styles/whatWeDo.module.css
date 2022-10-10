@@ -25,7 +25,7 @@
 
 .what_we_do_text_box {
   width: 70%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   position: relative;
   top: 100px;
   margin-left: 10%;
@@ -37,6 +37,7 @@
   font-size: 27px;
   font-family: 'cutive mono';
   line-height: 1.2em;
+  text-align: left;
 }
 
 .what_we_do_card_container {
@@ -84,7 +85,7 @@
   }
   .what_we_do_text_box > p {
     font-size: 15px;
-    padding: 7px;
+    padding: 10px;
   }
   .what_we_do_card > h2 {
     font-size: 40px;
@@ -130,9 +131,14 @@
 @media screen and (max-width: 550px) {
   .what_we_do_card_container {
     justify-content: center;
+    margin-top: 150px;
   }
   .what_we_do_text > h2 {
     font-size: 24px;
+    width: 220px;
+    top: 30px;
+    margin: auto;
+    letter-spacing: 4px;
   }
   .what_we_do_card > h2 {
     font-size: 22px;
@@ -150,6 +156,11 @@
   .what_we_do_card {
     margin-bottom: 80px;
   }
+  .what_we_do_text {
+    height: 450px;
+    background-size: cover;
+    background-position-x: center;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -165,8 +176,7 @@
   }
   .what_we_do_text > h2 {
     font-size: 22px;
-    width: 250px;
-    top: 20px;
+    /* top: 20px; */
   }
   .what_we_do_text_box > p {
     line-height: 20px;
