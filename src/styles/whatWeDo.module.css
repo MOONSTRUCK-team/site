@@ -110,11 +110,8 @@
     justify-content: center;
     text-align: center;
   }
-  .what_we_do_card:nth-child(1),
-  .what_we_do_card:nth-child(2),
-  .what_we_do_card:nth-child(3),
-  .what_we_do_card:nth-child(4) {
-    width: 270px;
+  .what_we_do_card {
+    width: 330px;
   }
   .what_we_do_text > h2 {
     font-size: 50px;
@@ -139,6 +136,19 @@
   }
   .what_we_do_card > h2 {
     font-size: 22px;
+    margin-top: 25px;
+  }
+  .what_we_do_picture {
+    object-fit: contain;
+    width: 60px;
+    height: 60px;
+  }
+  .what_we_do_card > p {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .what_we_do_card {
+    margin-bottom: 80px;
   }
 }
 
@@ -160,7 +170,6 @@
   }
   .what_we_do_text_box > p {
     line-height: 20px;
-    text-align: justify;
   }
   .what_we_do_card_container {
     padding-left: 0px;
@@ -168,11 +177,6 @@
   }
   .what_we_do_card > h2 {
     font-size: 20px;
-  }
-  .what_we_do_picture {
-    object-fit: contain;
-    width: 80px;
-    height: 80px;
   }
 }
 
