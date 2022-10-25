@@ -1,40 +1,45 @@
 .navbar_container {
   background: rgb(0 0 0 / 50%);
   position: fixed;
-  width: 100%;
   box-sizing: border-box;
   top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
   z-index: 1000;
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.navbar_links {
+  align-self: end;
 }
 
 .navbar_links::after {
   content: '';
   display: block;
-  width: 555px;
+  width: 1000px;
   height: 0.8px;
   background: white;
   position: absolute;
 }
 
-.navbar_logo {
-  padding-left: 9.5%;
-}
-
 .navbar_links > a {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
-  font-family: 'montserrat';
+  font-family: 'montserrat light';
   text-decoration: none;
   color: white;
-  padding: 0px 10px 0px 10px;
+  padding: 0 0 0 20px;
 }
+
+.navbar_links > a:hover {
+  font-weight: bold;
+}
+
 .navbar_logo {
   width: 350px;
   height: 50px;

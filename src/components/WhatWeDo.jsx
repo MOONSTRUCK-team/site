@@ -24,13 +24,12 @@ export default function WhatWeDo() {
       </div>
       <div className={styles.what_we_do_card_container}>
         <div className={styles.what_we_do_card}>
-          <div>
-            <StaticImage
-              className={styles.what_we_do_picture}
-              alt='audit picture'
-              src='../images/Audit_crna.png'
-            />
-          </div>
+          <StaticImage
+            className={styles.what_we_do_picture}
+            alt='audit picture'
+            src='../images/Audit_crna.png'
+          />
+
           <h2>AUDIT</h2>
           <p>
             By assessing the project's volume, complexity and viability, as well
@@ -43,13 +42,12 @@ export default function WhatWeDo() {
           </p>
         </div>
         <div className={styles.what_we_do_card}>
-          <div>
-            <StaticImage
-              alt='design picture'
-              src='../images/Design_crna.png'
-              className={styles.what_we_do_picture}
-            />
-          </div>
+          <StaticImage
+            alt='design picture'
+            src='../images/Design_crna.png'
+            className={styles.what_we_do_picture}
+          />
+
           <h2>DESIGN</h2>
           <p>
             We can assist you in applying structured reasoning and validating
@@ -61,14 +59,15 @@ export default function WhatWeDo() {
             offered remotely as well as on-site.
           </p>
         </div>
-        <div className={styles.what_we_do_card}>
-          <div>
-            <StaticImage
-              alt='develop picture'
-              src='../images/Develop2_crna.png'
-              className={styles.what_we_do_picture}
-            />
-          </div>
+        <div
+          className={styles.what_we_do_card}
+          id='develop_picture'
+        >
+          <StaticImage
+            alt='develop picture'
+            src='../images/Develop2_crna.png'
+            className={styles.what_we_do_picture}
+          />
           <h2>DEVELOP</h2>
           <p>
             We provide full-stack custom software development, including UI/UX
@@ -79,13 +78,12 @@ export default function WhatWeDo() {
           </p>
         </div>
         <div className={styles.what_we_do_card}>
-          <div>
-            <StaticImage
-              alt='support picture'
-              src='../images/Support2_crna.png'
-              className={styles.what_we_do_picture}
-            />
-          </div>
+          <StaticImage
+            alt='support picture'
+            src='../images/Support2_crna.png'
+            className={styles.what_we_do_picture}
+          />
+
           <h2>SUPPORT</h2>
           <p>
             Once product development is finalized, we can offer support,

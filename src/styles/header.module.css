@@ -14,20 +14,19 @@
 
 .header_logo2 {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  padding-right: 10%;
+  margin-right: 15%;
 }
 
 .header_yellow_layer {
   position: relative;
-  top: 20%;
+  top: 10%;
 }
 
 .header_simply {
   position: inherit;
-  top: -290px;
-  margin-left: 10%;
+  top: -270px;
+  margin-left: 15%;
   color: black;
 }
 
@@ -37,32 +36,39 @@
   font-size: 60px;
   font-weight: 600;
   line-height: 1.2em;
+  margin: 0;
 }
 
 .header_simply > p {
-  padding-top: 20px;
-  width: 900px;
+  width: 40%;
   color: #000000;
   font-weight: bold;
-  font-size: 27px;
+  font-size: 16px;
   font-family: 'cutive mono';
   line-height: 1.2em;
 }
+.yellow_pic_container {
+  width: 100%;
+}
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
   .header_simply {
-    top: -160px;
+    top: -200px;
   }
   .header_simply > h2 {
-    font-size: 45px;
+    font-size: 50px;
   }
-  .header_simply > p {
-    font-size: 18px;
-    width: 500px;
-    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header_simply > h2 {
+    font-size: 40px;
   }
-  .header_yellow_layer {
-    top: 300px;
+  .header_simply {
+    top: -200px;
+  }
+  .logo2_pic {
+    display: none;
   }
 }
 
@@ -71,14 +77,17 @@
     width: 100%;
   }
   .header_yellow_layer {
-    top: 250px;
+    top: 20%;
   }
   .header_simply {
     top: -130px;
   }
+  .header_simply > h2 {
+    font-size: 32px;
+  }
   .header_simply > p {
-    font-size: 16px;
-    width: 400px;
+    font-size: 11px;
+    width: 300px;
     margin: 0;
     padding: 0;
   }
@@ -95,15 +104,13 @@
     top: -95px;
   }
   .header_simply > h2 {
-    font-size: 38px;
-    margin-bottom: 10px;
+    font-size: 25px;
   }
   .header_simply > p {
-    font-size: 13px;
-    width: 300px;
+    font-size: 9px;
+    width: 220px;
     padding: 0;
     margin: 0;
-    padding-top: 3px;
   }
   .header_logo2 {
     display: none;
@@ -111,11 +118,15 @@
 }
 
 @media screen and (max-width: 550px) {
+  .header_container {
+    height: 100vh;
+    background-position: center;
+  }
   .header_yellow_layer {
     top: 250px;
   }
   .header_simply > h2 {
-    font-size: 35px;
+    font-size: 22px;
     margin-bottom: 4px;
     padding-bottom: 5px;
     color: yellow;
@@ -124,6 +135,7 @@
   .header_simply > p {
     font-size: 17px;
     color: white;
+    width: 300px;
   }
   .yellow_pic {
     display: none;
@@ -131,14 +143,9 @@
 }
 
 @media screen and (max-width: 450px) {
-  .header_container {
-    background-position: center;
-  }
-
   .header_simply {
     top: -130px;
   }
-
   .header_simply > h2 {
     font-size: 22px;
     margin-bottom: 0;

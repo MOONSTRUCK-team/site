@@ -18,11 +18,12 @@ footer {
 .contact_info_wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  margin: 0 10%;
+  justify-content: space-between;
 }
 
 .contact_info {
-  font-size: 15px;
+  font-size: 16px;
   color: #ffffff;
   font-weight: 400;
   font-family: 'cutive mono';
@@ -60,9 +61,20 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
+  .contact_info {
+    font-size: 11px;
+    padding: 5px;
+  }
+  .contact_logo {
+    width: 240px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .contact_info > p {
-    font-size: 13px;
+    font-size: 9px;
     line-height: normal;
     margin: 5px;
   }
@@ -75,7 +87,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .footer_container {
     width: 100%;
   }
@@ -85,12 +97,11 @@ footer {
   .contact_container__social {
     height: 80px;
   }
-  .contact_info > p {
-    font-size: 17px;
-  }
   .contact_info_wrapper {
-    width: 95%;
     padding: 0;
     margin: 0;
+  }
+  .contact_info > p {
+    font-size: 17px;
   }
 }

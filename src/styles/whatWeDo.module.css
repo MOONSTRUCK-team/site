@@ -6,7 +6,7 @@
   height: 500px;
   background-image: url('../images/background2.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 75%;
   width: 100%;
 }
 
@@ -16,25 +16,23 @@
   font-size: 60px;
   font-weight: 600;
   line-height: 1.2em;
-  padding: 5px;
-  padding-bottom: 0;
   position: relative;
   top: 50px;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .what_we_do_text_box {
-  width: 70%;
+  width: 50%;
   background-color: rgba(0, 0, 0, 0.8);
   position: relative;
-  top: 100px;
-  margin-left: 10%;
+  top: 30px;
+  margin-left: 15%;
 }
 
 .what_we_do_text_box > p {
   height: 10%;
   color: white;
-  font-size: 27px;
+  font-size: 16px;
   font-family: 'cutive mono';
   line-height: 1.2em;
   text-align: left;
@@ -43,9 +41,15 @@
 .what_we_do_card_container {
   display: flex;
   flex-direction: row;
-  padding-left: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-between;
   position: relative;
   top: -30px;
+}
+
+.what_we_do_card:nth-child(1) > div {
+  width: 70px;
 }
 
 .what_we_do_card {
@@ -53,10 +57,11 @@
   width: 20%;
   padding: 0px 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 .what_we_do_card > h2 {
-  font-size: 45px;
+  font-size: 30px;
   line-height: 1.2em;
   color: #000000;
   font-weight: 600;
@@ -66,47 +71,85 @@
 .what_we_do_card > p {
   color: #000;
   font-family: 'cutive mono';
-  font-size: 27px;
+  font-size: 16px;
   line-height: 1.2em;
   text-align: left;
 }
 .what_we_do_picture {
   object-fit: contain;
-  width: 130px;
-  height: 130px;
+  width: 80px;
+  height: 70px;
+  margin-bottom: 25px;
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1600px) {
+  .what_we_do_text_box {
+    width: 800px;
+  }
+  .what_we_do_text_box > p {
+    font-size: 20px;
+    padding: 5px;
+  }
+  .what_we_do_card > h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .what_we_do_card > p {
+    font-weight: 200;
+  }
+  .what_we_do_picture {
+    width: 50px;
+    height: 45px;
+  }
   .what_we_do_text > h2 {
-    font-size: 70px;
-    line-height: 16px;
+    font-size: 50px;
+  }
+  .what_we_do_card:nth-child(1) > div {
+    width: 45px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .what_we_do_card > p {
+    font-size: 16px;
+  }
+  .what_we_do_text > h2 {
+    font-size: 40px;
   }
   .what_we_do_text_box {
     width: 700px;
   }
   .what_we_do_text_box > p {
-    font-size: 15px;
-    padding: 10px;
-  }
-  .what_we_do_card > h2 {
-    font-size: 40px;
-    font-weight: 500;
-  }
-  .what_we_do_card > p {
-    font-size: 17px;
-    text-align: justify;
-    font-weight: 200;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 1000px) {
+  .what_we_do_text {
+    background-size: 100% 60%;
+  }
+  .what_we_do_text > h2 {
+    font-size: 32px;
+  }
   .what_we_do_text_box {
-    width: 600px;
+    width: 500px;
+  }
+  .what_we_do_text_box > p {
+    font-size: 11px;
+  }
+  .what_we_do_card > p {
+    font-size: 11px;
+  }
+  .what_we_do_card > h2 {
+    font-size: 25px;
+  }
+  .what_we_do_card_container {
+    top: -110px;
   }
 }
 
 @media screen and (max-width: 750px) {
   .what_we_do_card_container {
-    padding-left: 15%;
     display: inline-block;
     justify-content: center;
     text-align: center;
@@ -115,39 +158,59 @@
     width: 330px;
   }
   .what_we_do_text > h2 {
-    font-size: 50px;
+    font-size: 25px;
     line-height: normal;
     padding: 0;
     width: 350px;
   }
   .what_we_do_text_box > p {
-    font-size: 17px;
+    font-size: 9px;
+  }
+  .what_we_do_card > h2 {
+    font-size: 21px;
   }
   .what_we_do_text_box {
     width: 350px;
+  }
+  .what_we_do_card > p {
+    font-size: 9px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .what_we_do_card_container {
     justify-content: center;
+    margin: 0 10%;
     margin-top: 150px;
   }
   .what_we_do_text > h2 {
-    font-size: 24px;
+    font-size: 22px;
     width: 220px;
     top: 30px;
     margin: auto;
     letter-spacing: 4px;
   }
   .what_we_do_card > h2 {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 25px;
+  }
+  .what_we_do_text_box {
+    top: 60px;
+  }
+  .what_we_do_text_box > p {
+    font-size: 17px;
+    top: 30px;
+  }
+  .what_we_do_card > p {
+    font-size: 17px;
+  }
+  .what_we_do_card:nth-child(1) > div {
+    width: 60px;
   }
   .what_we_do_picture {
     object-fit: contain;
-    width: 60px;
     height: 60px;
+    width: 65px;
   }
   .what_we_do_card > p {
     margin-bottom: 25px;
